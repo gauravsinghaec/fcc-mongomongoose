@@ -4,23 +4,25 @@
 	"description": "A boilerplate project",
 	"main": "server.js",
 	"scripts": {
-		"start": "node server.js"
+	  "start": "node server.js"
 	},
 	"dependencies": {
-		"express": "^4.12.4",
-		"body-parser": "^1.15.2"
+	  "express": "^4.12.4",
+	  "body-parser": "^1.15.2",
+	  "mongodb": "^3.1.6",
+	  "mongoose": "^5.2.15"
 	},
 	"engines": {
-		"node": "4.4.5"
+	  "node": "4.4.5"
 	},
 	"repository": {
-		"type": "git",
-		"url": "https://hyperdev.com/#!/project/welcome-project"
+	  "type": "git",
+	  "url": "https://hyperdev.com/#!/project/welcome-project"
 	},
 	"keywords": [
-		"node",
-		"hyperdev",
-		"express"
+	  "node",
+	  "hyperdev",
+	  "express"
 	],
 	"license": "MIT"
-}
+  }
